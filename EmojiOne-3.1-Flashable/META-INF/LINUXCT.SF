@@ -1,0 +1,14 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: lMT6yXL0QW95PwBvcdkd7T+8cRE=
+SHA1-Digest-Manifest: nRXm8ulpIkV6ivjY04mj9Xovs1Y=
+Created-By: 1.8.0_141 (Oracle Corporation)
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: xU08O5ft5ga5N1NkAkAsNboQnkQ=
+
+Name: system/fonts/NotoColorEmoji.ttf
+SHA1-Digest: VrlyTcJ5e7MPR3Hz0Pnu5zYhbJ4=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: ddO14tBdSSaBnSFHvjNjI/Owyt8=
+

@@ -1,0 +1,23 @@
+ui_print(" ");ui_print(" ");
+ui_print("***********************************");
+ui_print(" EmojiOne 3.1 Flashable zip ");
+ui_print(" By dylanneve1");
+ui_print("***********************************");
+
+ui_print(" ");
+ui_print(" ");
+show_progress(1.000000, 0);
+run_program("/sbin/sleep", "1");
+ui_print("Extracting emojis.......");
+run_program("/sbin/busybox", "blockdev", "--setrw", "/dev/block/bootdevice/by-name/system");
+run_program("/sbin/busybox", "mount", "/system");
+mount("ext4", "EMMC", "/dev/block/bootdevice/by-name/system", "/system");
+ui_print("Applying your fabuloos new emojis");
+package_extract_dir("system", "/system");
+set_progress(0.500000);
+ui_print("Correcting permissions");
+set_perm(0, 0, 0644, "/system/fonts/NotoColorEmoji.ttf");
+set_progress(1.000000);
+ifelse(is_mounted("/system") == "/system", unmount("/system"));
+set_progress(1.000000);
+ui_print("Finished, enjoy!");

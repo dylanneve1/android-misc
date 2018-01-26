@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Created-By: 1.8.0_141 (Oracle Corporation)
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: BJz9HsFQQs3D/U3HKC4pYykyp5M=
+
+Name: system/fonts/NotoColorEmoji.ttf
+SHA1-Digest: bB8wxTLqJGyFwW0DvxeN1n5vvQc=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: Bs+W88MRnbV7gVUdLTM89K1dvKQ=
+
